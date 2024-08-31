@@ -2,7 +2,7 @@ services:
   app:
     build:
       context: .
-      dockerfile: /Users/keisukekubota/Programs/docker-dev/python/Dockerfile
+      dockerfile: Dockerfile
     image: python-dev-docker-image:latest
     container_name: python-dev-container
     volumes:
